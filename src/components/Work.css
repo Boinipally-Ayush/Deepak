@@ -1,0 +1,35 @@
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:15px auto;
+    width: 90vw;
+    gap:105px;
+}
+.work-img img{
+    border-radius: 20px;
+}
+.work-cont{
+    width:50%;
+    /* margin-left: 10px; */
+}
+.work-cont h2{
+    margin:5px;
+    text-align: center;
+}
+.work-cont P{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+}
+@media (max-width:450px) {
+    .work-img img{
+        width: 300px;
+    }
+}
+@media (max-width:1086px) {
+    .work-cont {
+        width: 85vw;
+    }
+}
